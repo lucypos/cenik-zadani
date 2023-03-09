@@ -11,7 +11,7 @@ const selectPlan = (planNumber) => {
     if (planNumber === plan3 ) {
         return document.getElementById('plan3').classList.add('plan--selected')
         }
-        
+    let alert = ('Prosím, vyberte číslo od 1 do 3') 
 }
 
 let plan1 = 1
